@@ -5,7 +5,31 @@ h1{
     font-size: x-large;
     color: blanchedalmond;
     text-align: center;
+
 }
 p{
     color: brown;
+}
+#encabezado {
+    background-color: rgb(87, 119, 148);
+    min-height: 200px;
+    height: auto;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 20px 5px  12px rgba(223, 12, 12, 11);
+    
+}
+/*#encabezado h1{
+    color: rgb(0, 0, 0);
+}*/
+#encabezado .encabezado1{
+    color: blueviolet;
+    
+}
+#encabezado .encabezado2{
+color: darkblue;
+}
+#encabezado .encabezado3{
+    color: lawngreen;
 }
