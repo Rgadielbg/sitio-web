@@ -1,5 +1,5 @@
-boyd{
-    background-color: blue;
+body{
+    background-color: rgb(156, 156, 156);
 }
 h1{
     font-size: x-large;
@@ -12,24 +12,78 @@ p{
 }
 #encabezado {
     background-color: rgb(87, 119, 148);
-    min-height: 200px;
-    height: auto;
-    width: 500px;
+   /*min-height: 200px;*/
+    height: 60px;
+    width: 100%;
     margin: 0 auto;
-    padding: 20px;
-    box-shadow: 20px 5px  12px rgba(223, 12, 12, 11);
-    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.logo{
+width: 20%;
+height: 100%;
+background-color: rgb(185, 100, 164);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo img{
+width: 100px;
+}
+.menu{
+width: 50%;
+height: 100%;
+/*background-color: aqua;*/
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.menu ul{
+    list-style: none ;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(192, 178, 178);
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    color: dodgerblue;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: #fff;
+    background-color: rgb(14, 113, 191);
+}
+.redes{
+width: 25%;
+height: 100%;
+/*background-color: rgb(106, 247, 94);*/
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.redes img{
+    width: 32px;
 }
 /*#encabezado h1{
+    box-shadow: 20px 5px  12px rgba(223, 12, 12, 11);
+
     color: rgb(0, 0, 0);
 }*/
-#encabezado .encabezado1{
+ .encabezado1{
     color: blueviolet;
     
 }
-#encabezado .encabezado2{
-color: darkblue;
+ .encabezado2{
+color: rgb(70, 70, 243);
 }
-#encabezado .encabezado3{
+ .encabezado3{
     color: lawngreen;
 }
