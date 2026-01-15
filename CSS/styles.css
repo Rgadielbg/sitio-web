@@ -1,18 +1,21 @@
-body{
-    background-color: rgb(156, 156, 156);
+body {
+    background-color: rgb(73, 121, 121);
 }
-h1{
-    font-size: x-large;
-    color: blanchedalmond;
-    text-align: center;
 
+h1 {
+    color: black;
+    text-align: center;
 }
-p{
-    color: brown;
+
+p {
+    color: rgb(132, 0, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    
 }
+
 #encabezado {
-    background-color: rgb(87, 119, 148);
-   /*min-height: 200px;*/
+    background-color: rgb(59, 97, 84);
     height: 60px;
     width: 100%;
     margin: 0 auto;
@@ -21,109 +24,154 @@ p{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    /*border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(223, 12, 12, 11);*/
 }
-#card2{
-    background-color: rgb(147, 81, 81);
-    height: 60%;
-    width: 70%;
-    margin: 0 auto;
-    padding: 12px;
-  
-}
-#card2 .card2{
-    background-color: rgb(123, 125, 80);
-    width: 30%;
-}
-#card2 img{
- width: 80%;
-height: 100%;
+
+.logo {
+    width: 20%;
+    height: 100%;
+   /* background-color: rgb(231, 197, 218);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-#card2 h2{
-    text-align: center;
-    font-size: large;
-    
-}
-#card3{
-background-color: rgb(119, 151, 87);
-height: 60%;
-width: 70%;
-margin: 0 auto;
-padding: center;
 
+.logo img {
+    width: 50%;
+    height: 100%;
 }
-.logo{
-width: 20%;
-height: 100%;
-background-color: rgb(185, 100, 164);
-display: flex;
-justify-content: center;
-align-items: center;
+
+.menu {
+    width: 90%;
+    height: 100%;
+    /*background-color: rgb(231, 197, 218);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.logo img{
-width: 100px;
-}
-.menu{
-width: 50%;
-height: 100%;
-/*background-color: aqua;*/
-display: flex;
-justify-content: center;
-align-items: center;
-}
-#button{
-      background-color: rgba(209, 117, 209, 0.933) ;
-    padding: 12px 26px;
-    border-radius: 30px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    box-shadow: 0 6px 15px rgba(255, 111, 177, 0.4);
-    transition: all 0.3s ease;
-}
-.menu ul{
-    list-style: none ;
+
+.menu ul {
+    list-style: none;
     margin: 0;
     padding: 0;
-    background-color: rgb(192, 178, 178);
+    background-color: rgb(77, 79, 100);
 }
-.menu ul li{
+
+.menu ul li {
     float: left;
 }
-.menu ul li a{
+
+.menu ul li a {
     display: block;
-    color: dodgerblue;
+    color: rgb(11, 20, 27);
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
 }
-.menu ul li a:hover{
+
+.menu ul li a:hover {
     color: #fff;
-    background-color: rgb(14, 113, 191);
+    background-color: rgb(82, 66, 97);
 }
-.redes{
-width: 25%;
-height: 10%;
-/*background-color: rgb(106, 247, 94);*/
-display: flex;
-justify-content: center;
-align-items: center;
+
+.redes {
+    width: 20%;
+    height: 100%;
+    /*background-color: rgb(231, 197, 218);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .redes img{
-    width: 32px;
+    width: 40px;
 }
-/*#encabezado h1{
-    box-shadow: 20px 5px  12px rgba(223, 12, 12, 11);
 
-    color: rgb(0, 0, 0);
-}*/
- .encabezado1{
-    color: blueviolet;
+#encabezado .encabezado1 {
+    color: black;
+}
+
+#encabezado .encabezado2 {
+    color: brown;
+}
+
+#encabezado .encabezado3 {
+    color: rgb(150, 140, 160);
+}
+
+
+#conttargetas {
+    height: 450px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#informacion{
+    background-color: rgb(69, 41, 73);
+}
+.targeta{
+    background-color: #ffffff;
+    width: 350px;
+    height: 400px ;
+    justify-content: center;
+    align-items: center;
+     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+}
+.targeta img{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10%;
+}
+.targeta h1{
+    text-align: center;
+    color: black;
+}
+.targeta p{
+    text-align: center;
+    color: gray;
+    padding: 10px;
+     font-size: 12px;
+}
+#informacion {
+    background-image: url("../IMAGES/fondo1.jpg");
+    background-position: center;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+#informacion h1, h3{
+    color: white;
+    text-align: center;
     
 }
- .encabezado2{
-color: rgb(70, 70, 243);
+#informacion p{
+    color: white;
+    text-align: justify;
+    padding: 30px;
+   
 }
- .encabezado3{
-    color: lawngreen;
+#informacion li{
+    color: white;
+}
+#pie {
+    background-color: gray;
+    height: 70px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pieizq{
+    width: 50%;
+    text-align: left;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
